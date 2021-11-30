@@ -13,6 +13,7 @@ struct axis_t{
 	ap_int<1> last;
 };
 
+//void matmul(T a[n][n], T b[n][n], T out[n][n]);
 void smul(axis_t *INPUT, axis_t *OUTPUT,  int length);
 
 #endif
